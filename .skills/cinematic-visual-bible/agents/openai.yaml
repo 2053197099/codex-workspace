@@ -1,0 +1,4 @@
+interface:
+  display_name: "电影视觉设定总控"
+  short_description: "将创作意图编排为空间、摄影、色彩和时间一致的全片视觉设定书"
+  default_prompt: "使用 $cinematic-visual-bible，根据我的创作意图与参考图输出完整、明确且不冗余的电影视觉设定。"
