@@ -1,0 +1,4 @@
+interface:
+  display_name: "电影表演与剪辑"
+  short_description: "协调人物动作、环境变化、摄影机运动、声音和整片剪辑节奏"
+  default_prompt: "使用 $cinematic-sequence-design 为我的视觉方案设计人物表演、镜头运动、节奏与声音。"
