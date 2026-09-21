@@ -1,0 +1,4 @@
+interface:
+  display_name: "电影空间与美术"
+  short_description: "将场景意图转成具有可信尺度、观看路径和连续性的电影空间美术"
+  default_prompt: "使用 $cinematic-space-design 为我的场景设计空间骨架、材质、观看层次与连续性。"
