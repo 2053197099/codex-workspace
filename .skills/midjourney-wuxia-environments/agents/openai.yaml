@@ -1,0 +1,4 @@
+interface:
+  display_name: "武侠游戏场景"
+  short_description: "分析游戏场景参考并生成武侠环境提示词"
+  default_prompt: "使用 $midjourney-wuxia-environments 为东方武侠／神话游戏设计场景：先从题材推导多样空间，再给五组简洁英文纯场景提示词，按主体、场景、镜头、构图、氛围、光影、限制词组织；默认无人，不复刻参考图。"
