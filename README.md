@@ -21,8 +21,8 @@
 - [初始逆向报告](cinematic-skills-reconstruction.md)与[迭代记录](cinematography-library/通用质感提示词迭代记录.md)：历史研究记录，不作为当前执行规则。
 - [Git 协作维护](docs/git-multidevice.md)：仓库维护参考，不参与创作流程。项目约束以 [AGENTS.md](AGENTS.md) 为准。
 
-`.skills/` 是本项目维护源；本机使用的五个同名副本位于 `~/.codex/skills/`，修改后需同步并核对。其他全局 Skills 不属于本项目清理范围。
+`.skills/` 是本项目维护源；本机安装副本位于 `~/.codex/skills/`。修改某个 Skill 时只同步对应副本并核对一致性，保留其他 Skill 的独立本地版本。
 
 ## 验证
 
-修改后检查本项目五个 Skill 的结构、相对引用、安装副本一致性，并按[回归案例](.skills/cinematic-visual-bible/references/validation-cases.md)验证受影响的交付分支。文本验证不代表生成画面已验收。
+修改后检查受影响 Skill 的结构、相对引用和对应安装副本；存在适用回归案例时再验证相关输出。文本检查不代表生成画面已验收。
